@@ -25,12 +25,12 @@ h6 {
 }
 
 a {
-  color: #6e3852;
+  color: #35776d;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
-  color: #3c1e2c;
+  color: #1d423c;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -45,7 +45,7 @@ p {
 }
 
 .wrapper {
-  background: #a15277;
+  background: #4cac9d;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -55,7 +55,7 @@ p {
 }
 
 .sidebar-wrapper {
-  background: #a15277;
+  background: #4cac9d;
   position: absolute;
   right: 0;
   width: 240px;
@@ -166,7 +166,7 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #6e3852;
+  color: #35776d;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -185,7 +185,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #6e3852;
+  background: #35776d;
   text-align: center;
   font-size: 16px;
   position: relative;
@@ -259,7 +259,7 @@ p {
   background-clip: padding-box;
 }
 .skillset .theme-progress-bar {
-  background: #b67091;
+  background: #6dbeb2;
 }
 
 .footer {
