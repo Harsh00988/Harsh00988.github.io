@@ -1,107 +1,431 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #2c3e50;
-            color: #ecf0f1;
-            text-align: center;
-            padding: 20px;
-        }
-        header img {
-            border-radius: 50%;
-            max-width: 150px;
-            height: auto;
-        }
-        h1 {
-            font-size: 36px;
-            margin: 10px 0;
-        }
-        h2 {
-            font-size: 24px;
-            margin-top: 0;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            margin-bottom: 10px;
-        }
-        .summary {
-            font-style: italic;
-            color: #555;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <img src="Harsh.jpeg" alt="Your Name">
-        <h1>Harsh Goyal</h1>
-        <h2>Student at Woxsen University</h2>
-    </header>
-    <div class="container">
-        <section>
-            <h2>Contact Information</h2>
-            <ul>
-                <li>Email: harsh.goyal_2025@woxsen.edu.in</li>
-                <li>Phone: +91-9457368572</li>
-                <li>Github: <a href="https://github.com/Harsh00988">Harsh00988</a></li>
-                <li>Github: <a href="https://www.linkedin.com/in/harsh-goyal-b39405228/">Harsh Goyal</a></li>
-            </ul>
-        </section>
-        <section>
-            <h2>Summary</h2>
-            <p class="summary">Experienced and innovative programmer with expertise in Python, Java, and Front-End Development (Tailwind and React JS), specializing in computer vision, object detection, and deep learning. B.Tech in Artificial Intelligence and Data Science, with a successful track record of developing AI-based systems and winning hackathons, including collaboration with Microsoft Learn.</p>
-        </section>
-        <section>
-            <h2>Education</h2>
-            <ul>
-                <li>
-                    <strong>Woxsen University</strong>- B.Tech in Artificial Intelligence and Data Science
-                    <br>
-                    Graduation Date: April 2025
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2>Work Experience</h2>
-            <ul>
-                <li>
-                    <strong>Kriti Social Initiatives</strong> - Intern
-                    <br>
-                    Dates: May 2023 - July 2023
-                    <br>
-                    
-Collaborated with an NGO in Hyderabad to develop STEM curriculum for underprivileged children and assisted in creating a Business Requirements Document (BRD) for their ERP procurement.
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2>Skills</h2>
-            <ul>
-                <li>Python (Pandas, Polars, OpenCV, Scikit-learn)</li>
-                <li>Front-End (HTML, CSS and JS)</li>
-                <li>Web Development Frameworks (e.g., React, Tailwind CSS)</li>
-                <li>Version Control (e.g., Git)</li>
-            </ul>
-        </section>
-    </div>
-</body>
-</html>
+  <head>
+    <title>Harsh Goyal Resume</title>
 
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- FontAwesome JS-->
+    <script defer src="./fontawesome/js/all.min.js"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="./plugins/bootstrap/css/bootstrap.min.css" />
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper mt-lg-5">
+      <div class="sidebar-wrapper">
+        <div class="profile-container">
+          <img class="profile" src="./Harsh.png" alt="" />
+          <h1 class="name">Harsh Goyal</h1>
+          <h3 class="tagline">Student</h3>
+        </div>
+        <!--//profile-container-->
+
+        <div class="contact-container container-block">
+          <ul class="list-unstyled contact-list">
+            <li class="email">
+              <i class="fa-solid fa-envelope"></i
+              ><a href="mailto: goyalharsh300@gmail.com"
+                >goyalharsh300@gmail.com</a
+              >
+            </li>
+            <li class="website">
+              <i class="fa-solid fa-globe"></i
+              ><a
+                href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/orbit-free-resume-cv-bootstrap-theme-for-developers/"
+                target="_blank"
+                >Harsh00988.github.io</a
+              >
+            </li>
+            <li class="linkedin">
+              <i class="fa-brands fa-linkedin-in"></i
+              ><a
+                href="https://www.linkedin.com/in/harsh-goyal-b39405228/"
+                target="_blank"
+                >linkedin.com/in/Harsh</a
+              >
+            </li>
+            <li class="github">
+              <i class="fa-brands fa-github"></i
+              ><a href="https://github.com/Harsh00988" target="_blank"
+                >github.com/Harsh00988</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!--//contact-container-->
+        <div class="education-container container-block">
+          <h2 class="container-block-title">Education</h2>
+          <div class="item">
+            <h4 class="degree">
+              B.Tech in Data Science and Artificial Interlligence
+            </h4>
+            <h5 class="meta">Woxsen University</h5>
+            <div class="time">2021-2025</div>
+          </div>
+          <!--//item-->
+          <div class="item">
+            <h4 class="degree">High School</h4>
+            <h5 class="meta">Fiitjee</h5>
+            <div class="time">2018 - 2020</div>
+          </div>
+          <!--//item-->
+        </div>
+        <!--//education-container-->
+        <div class="languages-container container-block">
+          <h2 class="container-block-title">Achievements</h2>
+          <ul class="list-unstyled interests-list">
+            <li>
+              <b>Patent Publication</b>,
+              <span class="lang-desc"
+                >An Improved Structure for Light Flight Equipment (Paraglider)
+                Powered by Renewable Sources Of Energy, published 05/23</span
+              >
+            </li>
+            <li>
+              <b>First place</b>
+              <span class="lang-desc"
+                >in Hacknovation, TechFiesta, 2023 at VBIT College,
+                Hyderabad</span
+              >
+            </li>
+            <li>
+              <b>Galactic Problem Solver</b>
+              <span class="lang-desc">in NASA Space Apps Challenge, 2023</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="languages-container container-block">
+          <h2 class="container-block-title">Languages</h2>
+          <ul class="list-unstyled interests-list">
+            <li>Hindi <span class="lang-desc">(Native)</span></li>
+            <li>English <span class="lang-desc">(Professional)</span></li>
+          </ul>
+        </div>
+        <!--//interests-->
+
+        <div class="interests-container container-block">
+          <h2 class="container-block-title">Interests</h2>
+          <ul class="list-unstyled interests-list">
+            <li>Cricket</li>
+            <li>Music</li>
+          </ul>
+        </div>
+        <!--//interests-->
+      </div>
+      <!--//sidebar-wrapper-->
+
+      <div class="main-wrapper">
+        <section class="section summary-section">
+          <h2 class="section-title">
+            <span class="icon-holder"><i class="fa-solid fa-user"></i></span
+            >Career Profile
+          </h2>
+          <div class="summary">
+            <p>
+              Experienced programmer skilled in Python, specializing in computer
+              vision, machine learning, deep learn ing, natural language
+              processing (NLP), and large language models (LLM). Pursuing B.Tech
+              in Artificial Intelligence and Data Science.
+            </p>
+          </div>
+          <!--//summary-->
+        </section>
+        <!--//section-->
+
+        <section class="section experiences-section">
+          <h2 class="section-title">
+            <span class="icon-holder"
+              ><i class="fa-solid fa-briefcase"></i></span
+            >Work Experience
+          </h2>
+
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Machine Learning Intern</h3>
+                <div class="time">April 2023- July 2023</div>
+              </div>
+              <!--//upper-row-->
+              <div class="company">Woxsen University, Hyderabad</div>
+            </div>
+            <!--//meta-->
+            <div class="details">
+              <p>
+                Worked in AI and Research Center of Woxsen University and
+                implemented an obstacle detection algorithm and developed UI for
+                the robor ”DISHA” deployed at Woxsen University
+              </p>
+            </div>
+            <!--//details-->
+          </div>
+          <!--//item-->
+
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Societal Internship</h3>
+                <div class="time">May 2023- July 2023</div>
+              </div>
+              <!--//upper-row-->
+              <div class="company">Kriti NGO, Hyderabad</div>
+            </div>
+            <!--//meta-->
+            <div class="details">
+              <p>
+                Collaborated with an NGO in Hyderabad to develop STEM curriculum
+                for underprivileged children and assisted in creating a Business
+                Requirements Document (BRD) for their ERP procurement.
+              </p>
+            </div>
+            <!--//details-->
+          </div>
+        </section>
+        <!--//section-->
+
+        <section class="section projects-section">
+          <h2 class="section-title">
+            <span class="icon-holder"><i class="fa-solid fa-archive"></i></span
+            >Projects
+          </h2>
+          <div class="intro"></div>
+          <!--//intro-->
+          <div class="item">
+            <span class="project-title"
+              ><b> Fake Review Detection System</b>
+            </span>
+            <br />
+            <span class="project-tagline">
+              In my fake review detection project, I scraped Amazon reviews and
+              applied preprocessing techniques like Tokenization, stopword
+              removal, and more. Extracting features such as tf-idf, Sentiment
+              scores with RoBERTa, and contextual embeddings, I used clustering
+              (K-Means, DBSCAN, hierarchical) to categorize clusters as fake or
+              genuine with human input. Employing Dask for Distributed computing
+              across seven systems (scheduler, client, five workers) with 32 GB
+              RAM each facilitated efficient analysis.
+            </span>
+          </div>
+          <!--//item-->
+          <div class="item">
+            <span class="project-title"
+              ><a
+                href="https://github.com/Lyra0710/Geomagnetic-Storm-Detection/tree/main/Harsh"
+                target="_blank"
+                ><b>Geomagnetic Storm Detection</b></a
+              ></span
+            >
+            <br />
+            <span class="project-tagline">
+              I have significantly contributed in development of Geomagnetic
+              storm detection using Neural Networks on DSCOVR`s raw data by NASA
+              and was able to successfully achieve the batch of Galactic problem
+              solver.</span
+            >
+          </div>
+          <!--//item-->
+          <div class="item">
+            <span class="project-title"
+              ><a
+                href="https://woxsenschoolofbusiness-my.sharepoint.com/personal/harsh_goyal_2025_woxsen_edu_in/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fharsh%5Fgoyal%5F2025%5Fwoxsen%5Fedu%5Fin%2FDocuments%2FYolov8&ga=1"
+                target="_blank"
+                ><b>Projects using YOLOv8</b></a
+              ></span
+            >
+            <br />
+            <span class="project-tagline"
+              ><ul>
+                <li>
+                  <b>Object Detection: </b>Implemented YOLOv8 for person
+                  detection, fine-tuned on a custom dataset with diverse
+                  augmentations. Documented the process, trained the model, and
+                  saved outputs from inference on four videos in a comprehensive
+                  zip file.
+                </li>
+                <li>
+                  <b>Image Classification: </b>Trained YOLOV8 for face
+                  detection, then developed an emotion classifica tion model
+                  (`Happy,` `Sad`, `Neutral`) from cropped faces. Ran the model
+                  on four videos, displaying emotions on detected faces.
+                </li>
+                <li>
+                  <b>Vehicle Counting and Speed Estimation: </b>Used YOLOv8 to
+                  detect vehicles, counted them in videos, and estimated their
+                  speeds. Compiled source video, inference code, output video,
+                  and documentation into a zip file.
+                </li>
+              </ul></span
+            >
+          </div>
+          <!--//item-->
+          <div class="item">
+            <span class="project-title"
+              ><a
+                href="https://github.com/Harsh00988/T5-model-training-and-evaluation"
+                target="_blank"
+                ><b>Training T5 and comparing results with FLAN T5</b></a
+              ></span
+            >
+            <br />
+            <span class="project-tagline"
+              >I led a project training the T5 language model, rigorously
+              evaluating its performance and comparing outcomes with FLAN T5.
+              This project showcased my expertise in natural language
+              processing, machine learning, and analytical skills.
+            </span>
+          </div>
+          <!--//item-->
+          <div class="item">
+            <span class="project-title"
+              ><a
+                href="https://github.com/Harsh00988/KLEOS/tree/main/KLEOS/Test"
+                target="_blank"
+              >
+                <b>Pothole Detection System</b></a
+              ></span
+            >
+            <br />
+            <span class="project-tagline">
+              I created a Python-based Pothole Detection System using YOLO v4
+              algorithm, achieving 95-percent accuracy. The system includes a
+              front-end interface displaying pothole locations
+            </span>
+          </div>
+
+          <div class="item">
+            <span class="project-title"
+              ><a
+                href="https://github.com/Harsh00988/Rewarded-Smart-Parking"
+                target="_blank"
+              >
+                <b>Smart Parking System</b></a
+              ></span
+            >
+            <br />
+            <span class="project-tagline">
+              Contributed to the development of a Smart Parking System using
+              OpenCV, enhancing urban parking efficiency. Implemented computer
+              vision for real-time detection and tracking of available parking
+              spaces, providing users with a seamless experience in locating and
+              reserving spots
+            </span>
+          </div>
+          <!--//item-->
+        </section>
+        <!--//section-->
+
+        <section class="skills-section section">
+          <h2 class="section-title">
+            <span class="icon-holder"><i class="fa-solid fa-rocket"></i></span
+            >Skills &amp; Proficiency
+          </h2>
+          <div class="skillset">
+            <div class="item">
+              <h3 class="level-title">Python</h3>
+              <div class="progress level-bar">
+                <div
+                  class="progress-bar theme-progress-bar"
+                  role="progressbar"
+                  style="width: 99%"
+                  aria-valuenow="99"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <!--//item-->
+
+            <div class="item">
+              <h3 class="level-title">Computer Vision</h3>
+              <div class="progress level-bar">
+                <div
+                  class="progress-bar theme-progress-bar"
+                  role="progressbar"
+                  style="width: 98%"
+                  aria-valuenow="98"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <!--//item-->
+
+            <div class="item">
+              <h3 class="level-title">Machine Learning</h3>
+              <div class="progress level-bar">
+                <div
+                  class="progress-bar theme-progress-bar"
+                  role="progressbar"
+                  style="width: 98%"
+                  aria-valuenow="98"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <!--//item-->
+
+            <div class="item">
+              <h3 class="level-title">HTML5 &amp; CSS</h3>
+              <div class="progress level-bar">
+                <div
+                  class="progress-bar theme-progress-bar"
+                  role="progressbar"
+                  style="width: 95%"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <!--//item-->
+
+            <div class="item">
+              <h3 class="level-title">Deep Learning</h3>
+              <div class="progress level-bar">
+                <div
+                  class="progress-bar theme-progress-bar"
+                  role="progressbar"
+                  style="width: 85%"
+                  aria-valuenow="85"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <!--//item-->
+
+            <div class="item">
+              <h3 class="level-title">Natural Language Processing</h3>
+              <div class="progress level-bar">
+                <div
+                  class="progress-bar theme-progress-bar"
+                  role="progressbar"
+                  style="width: 70%"
+                  aria-valuenow="60"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+            </div>
+            <!--//item-->
+          </div>
+        </section>
+        <!--//skills-section-->
+      </div>
+      <!--//main-body-->
+    </div>
+  </body>
+</html>
